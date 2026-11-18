@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/filler_monitoring_pipeline.egg-info/PKG-INFO
+src/filler_monitoring_pipeline.egg-info/SOURCES.txt
+src/filler_monitoring_pipeline.egg-info/dependency_links.txt
+src/filler_monitoring_pipeline.egg-info/requires.txt
+src/filler_monitoring_pipeline.egg-info/top_level.txt
+src/filler_pipeline/__init__.py
+src/filler_pipeline/lenses.py
+src/filler_pipeline/model.py
+src/filler_pipeline/patching.py
+src/filler_pipeline/probes.py
+src/filler_pipeline/run_pipeline.py
+src/filler_pipeline/tasks.py
+src/filler_pipeline/train_dpo.py
+tests/test_tasks.py

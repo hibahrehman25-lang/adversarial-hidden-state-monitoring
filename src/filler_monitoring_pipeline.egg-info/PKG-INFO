@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: filler-monitoring-pipeline
+Version: 0.1.0
+Summary: Reproducible hidden-state monitoring experiments for filler-token computation.
+Requires-Python: >=3.10
+Requires-Dist: torch>=2.2
+Requires-Dist: transformers>=4.45
+Requires-Dist: accelerate>=0.34
+Requires-Dist: datasets>=2.20
+Requires-Dist: scikit-learn>=1.4
+Requires-Dist: numpy>=1.26
+Requires-Dist: pandas>=2.2
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: tqdm>=4.66
+Requires-Dist: matplotlib>=3.8
+Provides-Extra: research
+Requires-Dist: transformer-lens>=2.0; extra == "research"
+Requires-Dist: nnsight>=0.4; extra == "research"
+Requires-Dist: tuned-lens>=0.2; extra == "research"
+Provides-Extra: training
+Requires-Dist: trl>=0.11; extra == "training"
+Requires-Dist: peft>=0.13; extra == "training"
+Requires-Dist: bitsandbytes>=0.43; extra == "training"
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: ruff>=0.6; extra == "dev"

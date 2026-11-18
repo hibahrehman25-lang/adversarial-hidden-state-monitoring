@@ -1,0 +1,23 @@
+model:
+  name: Qwen/Qwen2.5-0.5B
+  revision: null
+  dtype: auto
+  device_map: auto
+  trust_remote_code: true
+data:
+  train_size: 256
+  eval_size: 128
+  seed: 7
+  filler_min: 3
+  filler_max: 8
+analysis:
+  max_length: 256
+  probe_epochs: 30
+  probe_layers: null
+  patch_layers: [2, 4, 6]
+  batch_size: 8
+  output_dir: artifacts/pilot
+training:
+  enabled: false
+  output_dir: checkpoints/dpo
+  max_steps: 100
